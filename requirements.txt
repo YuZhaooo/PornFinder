@@ -1,0 +1,9 @@
+# Intel-Mac (x86_64): torch 2.2.2 ist die letzte PyPI-Version mit macOS-x86_64-Wheels.
+# Python 3.12 empfohlen. Auf Apple Silicon: python@3.14 + aktuelles torch möglich.
+
+torch==2.2.2
+numpy<2
+transformers>=4.40,<5
+pillow>=12.0
+tqdm>=4.67
+safetensors>=0.4
